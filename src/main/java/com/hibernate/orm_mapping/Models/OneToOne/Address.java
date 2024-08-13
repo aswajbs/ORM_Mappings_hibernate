@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Entity
-
+@Table(name="OTO-Address")
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
