@@ -13,6 +13,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
     User addUser(User user);
     void deleteUser(Long id);
     List<User> findAll();
+    List<User> findUserByCity(String city);
 
 
 }
